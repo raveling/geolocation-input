@@ -1,6 +1,7 @@
 # Geolocation input
 Custom extension of the Sanity geopoint component that implements reverse geocoding
 
+![Component preview](https://github.com/alevroub/geolocation-input/blob/master/preview/preview.png)
 
 ### someDocument.js
 ```
