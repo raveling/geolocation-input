@@ -61,7 +61,7 @@ export default class Geolocation extends React.PureComponent {
 		}
 	}
 
-	updateAddress(address) {
+	updateAddress() {
 		const changeAddress = (data) => data !== null ? set(data, ['geoaddress']) : unset(['geoaddress']);
 
 		this.props.onChange(
@@ -131,6 +131,6 @@ export default class Geolocation extends React.PureComponent {
 					))
 				}
 			</FormField>
-			)
+		)
 	}
 }
