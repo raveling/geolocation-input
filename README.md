@@ -19,13 +19,13 @@ fields: [
 location: {
   _type: "geolocation",
 
-  geoaddress:{
-    address: "Kirsten Flagstads Plass 1"
-    city: "Oslo"
+  geoaddress: {
+    address: "Kirsten Flagstads Plass 1",
+    city: "Oslo",
     country: "Norway"
   },
 
-  geopoint:{
+  geopoint: {
     _type: "geopoint",
     lat: 59.90748850000002,
     lng: 10.753127500000005
